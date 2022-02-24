@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.imagen1{
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 1200px) {
+    .imagen1{
+        background-color:#8DE0F2 ;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .imagen1{
+        background-color: #F22816;
+    }
+}
+@media screen and (max-width: 576px){
+    .responsive{
+        background-color:white ;
+    }
+}
+@media screen and (max-width: 480px){
+    .imagen1{
+        background-color: #0D8BD9;
+    }
+}

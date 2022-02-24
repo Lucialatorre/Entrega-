@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.grids__areas{
+    background-color: darkgoldenrod;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "menu encabezado encabezado"
+    "menu producto1 publicidad"
+    "menu producto2 publicidad"
+    "pie pie pie";
+    grid-template-columns: 20% 15% auto;
+    grid-template-rows: 100px 1fr 1fr 75px;
+    justify-content: center;
+}
+/*grid hijos*/
+.header{
+    background-color: blue;
+    grid-area: encabezado;
+}
+.nav{
+    background-color: aqua;
+    grid-area: menu;
+    justify-self: center;
+    align-self: center;
+}
+.product1{
+    background-color: blueviolet;
+    grid-area: producto1;
+}
+.product2{
+    background-color: chartreuse;
+    grid-area: producto2;
+}
+.aside{
+    background-color: brown;
+    grid-area: publicidad;
+}
+.footer{
+    background-color: burlywood;
+    grid-area: pie;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+}

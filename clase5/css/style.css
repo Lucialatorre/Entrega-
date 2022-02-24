@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*contenedor PADRE*/
+.container{
+    background-color: beige;
+    /* Si quiero que ocupe el total de la pantalla hago lo siguiente*/
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+/*para poder alinear las cajas me coloco sobre el contenedor PADRE*/
+.container__caja{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.container__img{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+
+
+.footer {
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

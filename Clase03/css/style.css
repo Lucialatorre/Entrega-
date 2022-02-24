@@ -1,0 +1,48 @@
+h1{
+    color:brown
+}
+
+
+header{
+    background-color: cornflowerblue;
+    height: 120px;
+    background-image: url('../img/descarga.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+p{
+    color: green
+}
+
+footer p {
+    color:lawngreen
+}
+
+.importante {
+    color:lightseagreen
+}
+
+.borde-redondo{
+    border-radius: 16px;
+}
+
+#seccion-1{
+    background-color: magenta;
+}
+
+#seccion-2{
+   background-color: mediumaquamarine;
+}
+
+body {
+    background-color: mediumvioletred;
+}
+
+nav {
+    font-style: italic;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+}

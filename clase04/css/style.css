@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Condensed:wght@300 & family= Roboto+Slab:wght@200;400 & family= Supermercado+One & display= intercambio');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;    
+    text-decoration: none;
+}
+/*nav*/
+.nav{
+    background-color: cornflowerblue;
+    text-decoration: none;
+}
+.nav__links{
+    list-style: none;  
+    text-decoration: none;
+}
+
+.nav__search{
+    display: inline;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.nav__input{
+    height: 35px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+.nav__item{
+    display: inline-block;
+    text-decoration: none;
+}
+.nav__item--active{
+   font-weight: 900;
+}
+/*main*/
+.card{
+    height: 200px;
+    width: 200px;
+    background-color: darkgray;
+    border: solid 2px black;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 10px;
+    overflow: scroll;
+    
+}
+.card--relative{
+ ;
+    top: 1px;
+    bottom:5px;
+    left:2px;
+}
+
+.card__body img {
+    width: 100%;
+    height: auto;
+}
+.card__header{
+    background-color: chocolate;
+    height: 30px;
+    text-align: center;
+}
+
+
+
+/*footer*/
+.footer__pie {
+    background-color: blue;
+    color: chartreuse;
+    height: 60px;
+}
